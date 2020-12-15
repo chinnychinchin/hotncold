@@ -75,9 +75,6 @@ const putImage = (buffer, file) => {
 }
 
 
-
-
-
 //Configure MongoClient
 const url = 'mongodb://localhost:27017';
 const mongoClient = new MongoClient(url, {useNewUrlParser:true, useUnifiedTopology: true});
